@@ -19,4 +19,10 @@ public class Role {
     public void setRolename(String rolename) {
         this.rolename = rolename;
     }
+    public Role(){
+    }
+    public Role(Integer rid,String rolename){
+	    this.rid = rid;
+	    this.rolename = rolename;
+    }
 }
